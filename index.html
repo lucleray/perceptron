@@ -1,4 +1,5 @@
 <html>
+
 <head>
 	<title>perceptron (beta)</title>
 	<link rel="stylesheet" href="css/main.css" />
@@ -6,67 +7,80 @@
 	<script type="text/javascript" src="js/more.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
+
 <body>
 	<div id="titre">
-		<h1><img src="css/loadf.gif" id="load" /> Perceptron</h1>
+		<h1>
+			<img src="css/loadf.gif" id="load" /> Perceptron</h1>
 		<a href="#" id="raz">RAZ</a>
 	</div>
 	<div id="aide">Aide : survolez pour avoir plus d'informations</div>
 	<div id="left">
-	<div id="perceptron">
-		<div id="corep">
-			<div id="corecalcul">&Sigma;</div>
-			<div id="corex">x</div>
-			<div id="corey">y</div>
-			<div id="coret">-1</div>
-			<div id="cores">s</div>
-			<input id="corepx" value="1" />
-			<input id="corepy" value="-1" />
-			<input id="corept" value="0" />
-			<div id="corepxarray"></div>
-			<div id="corepyarray"></div>
-			<div id="corepsarray"></div>
-			<div id="coreptarray"></div>
-			<div id="poidsx"></div>
-			<div id="poidsy"></div>
-			<div id="alphadiv">
-				&alpha; = <input type="text" id="alpha" value="1" />
+		<div id="perceptron">
+			<div id="corep">
+				<div id="corecalcul">&Sigma;</div>
+				<div id="corex">x</div>
+				<div id="corey">y</div>
+				<div id="coret">-1</div>
+				<div id="cores">s</div>
+				<input id="corepx" value="1" />
+				<input id="corepy" value="-1" />
+				<input id="corept" value="0" />
+				<div id="corepxarray"></div>
+				<div id="corepyarray"></div>
+				<div id="corepsarray"></div>
+				<div id="coreptarray"></div>
+				<div id="poidsx"></div>
+				<div id="poidsy"></div>
+				<div id="alphadiv">
+					&alpha; =
+					<input type="text" id="alpha" value="1" />
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="commande">
-		apprentissage :
-		<a id="csimple" href="#">simple</a> /
-		<a id="ctotal" href="#">total</a>
-	</div>
-	<div id="list">
-	<ul id="ulist">
-		<li class="t">
-			<div class="ppoint"></div>
-			<div>id</div>
-			<div><span>x</span></div>
-			<div><span>y</span></div>
-			<hr />
-		</li>
-	</ul>
-	</div>
+		<div id="commande">
+			apprentissage :
+			<a id="csimple" href="#">simple</a> /
+			<a id="ctotal" href="#">total</a>
+		</div>
+		<div id="list">
+			<ul id="ulist">
+				<li class="t">
+					<div class="ppoint"></div>
+					<div>id</div>
+					<div>
+						<span>x</span>
+					</div>
+					<div>
+						<span>y</span>
+					</div>
+					<hr />
+				</li>
+			</ul>
+		</div>
 	</div>
 	<div id="graph">
-		<div id="horsecran" style="display:none;">hors d'écran<img src="css/warning.png" /></div>
+		<div id="horsecran" style="display:none;">hors d'Ã©cran
+			<img src="css/warning.png" />
+		</div>
 		<a id="stop" href="#" style="display:none;">stop</a>
 		<canvas id="pline" width="400" height="400">(html5 est requis)</canvas>
 	</div>
 	<div id="param">
-		<div id="xpos">x : <span id="mousex">0</span></div>
-		<div id="ypos">y : <span id="mousey">0</span></div>
+		<div id="xpos">x :
+			<span id="mousex">0</span>
+		</div>
+		<div id="ypos">y :
+			<span id="mousey">0</span>
+		</div>
 		<div id="actionp">
 			<a href="#" id="addp" class="select">ajouter</a>
-			<a href="#" id="movep">dép</a>
+			<a href="#" id="movep">deplacer</a>
 			<a href="#" id="deletep">supprimer</a>
 		</div>
 		<div id="colorp">
 			<a href="#" id="redp" style="color:red" class="select">rouge</a>
-			<a id="greenp" href="#"  style="color:green">vert</a>
+			<a id="greenp" href="#" style="color:green">vert</a>
 			<!--<a id="bluep" href="#" style="color:blue">bleu</a>
 			<a id="yellowp" href="#" style="color:#ffe000">jaune</a>-->
 			<hr />
@@ -74,4 +88,5 @@
 		<hr />
 	</div>
 </body>
+
 </html>
