@@ -1,6 +1,6 @@
-![Demo of perceptron](demo.gif)
-
 ### [Live demo ☞](https://lucleray.github.io/perceptron/)
+
+![Demo of perceptron](demo.gif)
 
 <hr>
 
